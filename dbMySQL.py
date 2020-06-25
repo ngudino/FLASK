@@ -10,7 +10,7 @@ class DataBase():
     __cnn = ""
     __cursor = ""
 
-    def __init__(self, phost="localhost", puser="root", ppassw="root", dbname="intranet"):
+    def __init__(self, phost="localhost", puser="root", ppassw="", dbname="intranet"):
         self.__host = phost
         self.__user = puser
         self.__pass = ppassw
